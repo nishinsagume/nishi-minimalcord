@@ -4,11 +4,13 @@
  * @version 1.0.0
  * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/MinimalCord
- * @website https://www.gibbu.me
+ * @website #2F313
  * @Modified by Nishimiya#7646
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700'); 
 /* @import url("https://gibbu.github.io/BetterDiscord-Themes/MinimalCord/base.css"); */
 
 /* Black Box user tags */
@@ -1548,7 +1550,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   padding: var(--message-padding);
 }
 #app-mount .cozyMessage-3V1Y8y .avatar-1BDn8e {
-  top: var(--message-padding);
+  top: var(--message-padding) + 20px;
   left: var(--message-padding);
 }
 #app-mount .cozyMessage-3V1Y8y .avatar-1BDn8e+h2 {
@@ -1623,6 +1625,11 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   border-top-color: var(--message-box-divider);
   background: transparent;
 }
+
+#app-mount .repliedMessage-VokQwo {
+    left: 55px;
+}
+
 #app-mount .form-2fGMdU:before {
   content: none;
 }
@@ -1770,7 +1777,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   box-shadow: none;
   background: transparent !important;
 }
-#app-mount .sidebar-2K8pFh .container-PNkimc {
+#app-mount .sidebar-2K8pFh .container-3w7J-x {
   background: transparent;
 }
 #app-mount .sidebar-2K8pFh .unread-1xRYoj {
