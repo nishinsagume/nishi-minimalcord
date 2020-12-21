@@ -1548,7 +1548,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   padding: var(--message-padding);
 }
 #app-mount .cozyMessage-3V1Y8y .avatar-1BDn8e {
-  top: var(--message-padding);
+  top: var(--message-padding) + 20px;
   left: var(--message-padding);
 }
 #app-mount .cozyMessage-3V1Y8y .avatar-1BDn8e+h2 {
@@ -1622,6 +1622,9 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
 #app-mount .channelTextArea-rNsIhG {
   border-top-color: var(--message-box-divider);
   background: transparent;
+}
+#app-mount .repliedMessage-VokQwo {
+    left: 55px;
 }
 #app-mount .form-2fGMdU:before {
   content: none;
@@ -1770,7 +1773,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   box-shadow: none;
   background: transparent !important;
 }
-#app-mount .sidebar-2K8pFh .container-PNkimc {
+#app-mount .sidebar-2K8pFh .container-3w7J-x {
   background: transparent;
 }
 #app-mount .sidebar-2K8pFh .unread-1xRYoj {
